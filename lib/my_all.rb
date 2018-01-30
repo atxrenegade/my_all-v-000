@@ -6,8 +6,7 @@ def my_all?(array)
     block_return_values = []
     while n < array.length
         block_return_values << yield(array[n])
-        if block_return_values[n] == false
-          return false
+        block_return_values[n] 
         end
       n += 1
 
