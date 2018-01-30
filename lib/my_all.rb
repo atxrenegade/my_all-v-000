@@ -8,9 +8,9 @@ def my_all?(array)
         block_return_values << yield(array[n])
         if block_return_value == false
           return false
-        end  
+        end
       n += 1
-      
+
     end
   end
 end
