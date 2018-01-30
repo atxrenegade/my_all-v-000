@@ -9,4 +9,5 @@ def my_all?(array)
       n += 1
     end
   end
+  block_return_values
 end
